@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1F22">
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/quote_background"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Quote of the Day"
+        android:textColor="@color/colorBackground"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Author"
+        android:textColor="@color/colorBackground"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/CircularButton"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:text="Refresh"
+            android:layout_margin="8dp"
+            android:textColor="#050505"/>
+
+        <Button
+            android:id="@+id/btnFavorites"
+            style="@style/CircularButton"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:text="Add Favorite"
+            android:layout_margin="8dp"
+            android:textColor="#050505"/>
+
+        <Button
+            android:id="@+id/btnViewFavorites"
+            style="@style/CircularButton"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:text="View Favorites"
+            android:layout_margin="8dp"
+            android:textColor="#050505"/>
+
+        <Button
+            android:id="@+id/btnShare"
+            style="@style/CircularButton"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:text="Share"
+            android:layout_margin="8dp"
+            android:textColor="#070707"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
